@@ -1,5 +1,4 @@
 .container {
-    background-color: #292d3e;
     width: 100%;
     height: 100%;
     display: grid;
@@ -11,7 +10,7 @@
 }
 
 .enfants {
-    background-color: #f07178;
+    background-color: #eee;
     padding: 10px;
 }
 
@@ -20,6 +19,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 4px;
+    border-bottom: 1px solid rgba(170, 206, 247, 0.123);
+    background-color: whitesmoke;
+    padding: 0;
 }
 
 .enfants:nth-child(2) {
@@ -40,7 +42,7 @@
 }
 
 .pres {
-    background-color: #7dddff;
+    background-color: rgb(196, 222, 252);
     padding: 15px;
 }
 
@@ -71,19 +73,15 @@ img {
     .enfants {
         grid-column: 1/7 !important;
     }
-
     .enfants:nth-child(2) {
         grid-row: 2/3;
     }
-
     .enfants:nth-child(3) {
         grid-row: 3/4;
     }
-
     .enfants:nth-child(4) {
         grid-row: 4/5;
     }
-
     .enfants:nth-child(5) {
         grid-row: 5/6;
     }
@@ -104,7 +102,4 @@ img {
     {
         grid-row: 3/4;
     }
-
-
-
 }
